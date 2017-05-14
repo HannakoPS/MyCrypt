@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MyCrypt</string>
+    <string name="home">MYCRYPT</string>
+    <string name="title_action_about">About</string>
+    <string name="encrypt">ENCRYPT</string>
+    <string name="decrypt">DECRYPT</string>
+    <string name="title_encrypt">Encrypt Message</string>
+    <string name="title_decrypt">Decrypt Message</string>
+    <string name="already_clean_info">Nothing to clean!</string>
+    <string name="text_n_key_info">Type your message and key!</string>
+    <string name="text_info">Type your message!</string>
+    <string name="key_info">Type the key!</string>
+    <string name="msg_copied_toast">Message copied to clipboard</string>
+    <string name="key_hint">Key</string>
+    <string name="message_hint">Message</string>
+    <string name="decrypt_txt">Decrypt</string>
+    <string name="clean_txt">Clean</string>
+    <string name="encrypt_txt">Encrypt</string>
+
+</resources>

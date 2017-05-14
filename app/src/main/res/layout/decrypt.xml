@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/decrypt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Decrypt">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:id="@+id/tvPlaintext_d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="12dp"
+                android:text="@string/message_hint"
+                android:textSize="18sp"
+                android:textColor="#2E404A"/>
+
+            <EditText
+                android:id="@+id/text_input_d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:hint="@string/text_info"
+                android:backgroundTint="#00B4DF"/>
+
+            <TextView
+                android:id="@+id/tvKey_d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="12dp"
+                android:text="@string/key_hint"
+                android:textSize="18sp"
+                android:textColor="#2E404A"/>
+
+            <EditText
+                android:id="@+id/key_input_d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:hint="@string/key_info"
+                android:backgroundTint="#00B4DF"/>
+
+            <RelativeLayout
+                android:id="@+id/buttonPanel_d"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/clean_btn_d"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="13sp"
+                    android:background="#2E404A"
+                    android:textColor="#FFFFFF"
+                    android:text="@string/clean_txt"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20dp"/>
+
+                <Button
+                    android:id="@+id/decrypt_btn_d"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="13sp"
+                    android:background="#2E404A"
+                    android:textColor="#FFFFFF"
+                    android:text="@string/decrypt_txt"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="20dp"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/output_tv_d"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textAlignment="center"
+                android:textColor="#00B4DF"
+                android:textIsSelectable="true"
+                android:textSize="24sp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
+

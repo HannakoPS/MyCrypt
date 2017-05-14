@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.writeline.mycrypt">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/mycrypt"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/mycrypt"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splashscreen"
+            android:label="@string/app_name"
+            android:theme="@style/Splashscreen"
+            android:screenOrientation="portrait"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/home" />
+        <activity
+            android:name=".About"
+            android:label="@string/title_action_about" />
+        <activity
+            android:name=".Encrypt"
+            android:label="@string/title_encrypt" />
+        <activity
+            android:name=".Decrypt"
+            android:label="@string/title_decrypt" />
+    </application>
+
+</manifest>

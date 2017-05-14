@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/svLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/ic_mycrypt1" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView1"
+                android:padding="5dp"
+                android:text="MyCrypt 1.0"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView1"
+                android:text="Vigenere Algorithm"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Final Project Mata Kuliah Program Aplikasi Mobile \n S1 Teknik Informatika"
+                android:textAlignment="center"
+                android:textSize="12sp"
+                android:layout_below="@+id/textView2"
+                android:paddingTop="4dp"
+                android:textColor="@color/colorPrimary"/>
+
+            <RelativeLayout
+                android:id="@+id/imageHasan"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/imageView1">
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@mipmap/hasan" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/textHasan"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/imageHasan"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:layout_below="@+id/imageHasan">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textColor="@color/colorPrimary"
+                    android:text="Hasan Ghozali\n14.11.7815"
+                    android:gravity="center"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/imageWindri"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:layout_alignParentRight="true">
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@mipmap/windri" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/textWindri"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/imageWindri"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:layout_below="@+id/imageWindri">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textColor="@color/colorPrimary"
+                    android:text="Windri Alfika\n14.11.7825"
+                    android:gravity="center"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/imageKoco"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_alignTop="@+id/imageKoko"
+                android:layout_alignLeft="@+id/textHasan"
+                android:layout_alignStart="@+id/textHasan">
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@mipmap/koco" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/textKoco"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/imageKoco"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:layout_below="@+id/imageKoco">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textColor="@color/colorPrimary"
+                    android:text="Dwi Sukoco\n14.11.7835"
+                    android:gravity="center"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/imageKoko"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:layout_below="@+id/textWindri"
+                android:layout_alignParentRight="true">
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@mipmap/koko" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/textKoko"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/imageKoko"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:layout_below="@+id/imageKoko">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textColor="@color/colorPrimary"
+                    android:text="Hannako P. S.\n14.11.7833"
+                    android:gravity="center"/>
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
